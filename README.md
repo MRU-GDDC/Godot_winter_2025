@@ -5,8 +5,8 @@
 ```
 extends Area2D
 
-
-const spell = preload("res://Bullet.tscn")
+# add spell
+const spell = preload("enter spell scene here")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -54,14 +54,13 @@ func _process(delta):
 
 ```
 
-
 ## Enemy Spawner Code
 
 ```
     # creat the enemy
     var mob = mob_scene.instantiate()
 
-    var mob_spawn_location = $spawner/spawnLocation
+    var mob_spawn_location = $Path2D/PathFollow2D
 
     # get a random location on the spwan path.
     mob_spawn_location.progress_ratio = randf()
