@@ -15,6 +15,7 @@ func _ready():
 
 func _process(delta):
 	#add input code
+	pass
 
 
 
