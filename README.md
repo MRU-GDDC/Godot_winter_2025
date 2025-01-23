@@ -44,6 +44,17 @@ func _input(event):
 
 ```
 
+## spell code
+
+```
+
+func _process(delta):
+	position += transform.x * speed * delta
+
+
+```
+
+
 ## Enemy Spawner Code
 
 ```
