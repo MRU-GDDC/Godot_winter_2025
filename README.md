@@ -1,4 +1,4 @@
-# Godot WorkShop
+# Godot Workshop
 
 ## Player code
 
